@@ -25,12 +25,19 @@ font_name = args.name
 # inclusive unicode code point intervals
 # must not overlap and be in ascending order
 intervals = [
-    #zakladni latinka
-    (0x0021, 0x007e),
+    #-
+    (0x002d, 0x002d),
+    #cisla
+    (0x0030, 0x0039),
+    #zakladni latinka velka
+    (0x0041, 0x005a),
+    #zakladni latinka mala 
+    (0x0061, 0x007a)
+
     #dodatek latinky
-    (0x00c0, 0x00ff),
+#    (0x00c0, 0x00ff),
     #rozsireni latinka A
-    (0x0100, 0x017e)
+#    (0x0100, 0x017e)
 #    (32, 126),
 #    (160, 255),
     # punctuation
