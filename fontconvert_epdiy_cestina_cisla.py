@@ -24,6 +24,8 @@ font_name = args.name
 
 # inclusive unicode code point intervals
 # must not overlap and be in ascending order
+
+# Roboto: https://www.fileformat.info/info/unicode/font/roboto/grid.htm
 intervals = [
     #-
     (0x002d, 0x002d),
@@ -32,8 +34,35 @@ intervals = [
     #zakladni latinka velka
     (0x0041, 0x005a),
     #zakladni latinka mala 
-    (0x0061, 0x007a)
-
+    (0x0061, 0x007a),
+    #Á
+    (0x00c1, 0x00c1),
+    #Č
+    (0x010c, 0x010c),
+    #Ď
+    (0x010e, 0x010e),
+    #É
+    (0x00c9, 0x00c9),
+    #Í
+    (0x00cd, 0x00cd),
+    #Ň
+    (0x00c1, 0x00c1),
+    #Ó
+    (0x00c1, 0x00c1),
+    #Ř
+    (0x00c1, 0x00c1),
+    #Š
+    (0x00c1, 0x00c1),
+    #Ť
+    (0x00c1, 0x00c1),
+    #Ú
+    (0x00c1, 0x00c1),
+    #Ů
+    (0x00c1, 0x00c1),
+    #Ý
+    (0x00c1, 0x00c1),
+    #Ž
+    (0x00c1, 0x00c1),
     #dodatek latinky
 #    (0x00c0, 0x00ff),
     #rozsireni latinka A
